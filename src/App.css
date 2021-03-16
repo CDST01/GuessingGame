@@ -1,0 +1,28 @@
+:root {
+  /* CSS HSL */
+--blue-ncs: hsla(201, 67%, 44%, 1);
+--independence: hsla(246, 14%, 29%, 1);
+--salmon-pink: hsla(349, 96%, 79%, 1);
+--baby-powder: hsla(60, 100%, 99%, 1);
+--carolina-blue: hsla(201, 45%, 54%, 1);
+}
+
+body {
+  background-color: var(--blue-ncs);
+  min-height: 100vh;
+  margin: 0;
+}
+#root {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.App {
+background-color: var(--baby-powder); 
+}
+h1{
+  color: var(--independence);
+}
+.message{
+  color: var(--independence);
+}
